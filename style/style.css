@@ -2,8 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Inter','Merriweather', serif;
-    
+    font-family: 'Inter','Merriweather', serif; 
 }
 /* header top */
 .header-top{
@@ -46,7 +45,7 @@
     width: 1300px;
     height: 950px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 100px;
     align-items: center;
     
 }
@@ -80,9 +79,7 @@
     padding: 50px 398px 0px 399px;
 }
 /* Main section two */
-.section-two-one{
-    
-}
+
 .main-section-two-midnight-party{
     background-image: linear-gradient(45deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
     border-radius: 16px;
@@ -92,7 +89,7 @@
     background-size: contain;
     flex-shrink: 0;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .main-section-two-welcome{
     color: #FFF;
@@ -112,8 +109,6 @@
     font-style: normal;
     font-weight: 400;
     padding: 24px 39px 48px 126px;
-    /* padding-left: 126px;
-    padding-right: 39px; */
     line-height: 30px; /* 166.667% */
 }
 .main-section-two-midnight-party{
@@ -142,13 +137,14 @@
 }
 
 /* Third Section */
+
 .main-section-third{
     max-width: 1320px;
     height: 482px;
     flex-shrink: 0;
     background:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 120px;
 }
 .third-div-1{
     max-width: 549px;
@@ -187,20 +183,17 @@
     margin-left: 200px;
 }
 
-/* main more to be done */
-
 /* Fourth Section */
+
 .main-section-four{
     max-width: 1320px;
     background: #FFF;
     display: flex;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 120px;
     
 }
-.best-offer{
-    
-}
+
 .best-offer-title{
     max-width: 207px;
     height: 29px;
@@ -275,71 +268,61 @@
 
 /* holiday section (section-five) */
 .section-five{
-    width: 1600px;
+    width: 1320px;
     height: 1000px;
-}
-.comming-soon {
+    margin: 0 auto;
     margin-top: 120px;
+    margin-bottom: 100px;
 }
-
-.comming-soon-new-section {
-    width: 1600px;
-    height: auto;
-    display: flex;
-    margin: auto;
-    gap: 150px;
+.holiday-sell{
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
 }
-
-.news-best {
-    color: #F00;
+.what{
+    width: 263px;
+    height: 29px;
+    color: #070211;
     font-family: Inter;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
     font-size: 24px;
+    font-style: normal;
     font-weight: 500;
+    line-height: normal;
 }
-
-.comming-soon-title {
+.holiday-50{
+    max-width: 677px;
+    height: 91px;
+    color: #F00;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+#span-50{
     color: #070211;
     font-family: Merriweather;
-    font-size: 48px;
+    font-size: 72px;
+    font-style: normal;
     font-weight: 900;
-    text-transform: capitalize;
-    margin-top: 16px;
-    margin-bottom: 22px;
-
+    line-height: normal;
 }
-
-.comming-soon-text {
+.holiday-para{
+    width: 1068px;
+    height: 96px;
     color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    margin: 0 auto;
     font-family: Inter;
     font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    width: 393px;
-}
-
-.comming-soon-section-screl {
-    border: solid 15px;
-    border-radius: 100%;
-    color: red;
-    padding: 50px;
-    margin: auto;
-}
-
-.year {
-    color: #F00;
-    font-family: Inter;
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 16px;
-}
-
-.happy-new-year {
-    margin-top: 43px;
-}
-
-.comming-soon-section {
-    margin: auto;
-
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
 }
 .holiday-image{
     background-image: url('../images/Rectangle\ 2.png');
@@ -383,42 +366,12 @@
     left: 65px;
 }
 
-.holiday-image00{
-    /* display: flex; */
-}
+
+/* new section */
+
 /* section end */
 
-/* footer */
-.footer-width{
-    max-width: 1600px;
-    height: 609px;
-    background: #070211;
-    margin: 0 auto;
-    margin-top: 50px;
-    background-size: cover;
-    flex-shrink: 0;
-}
-.footer-address{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 40px; /* 166.667% */
-}
-/* section five */
-.section-five{
-    max-width: 1320px;
-    /* height: 800px; */
-    background-repeat: no-repeat;
-    background-size: contain;
-    justify-content: center;
-    flex-shrink: 0;
-    margin: 50px 140px 0 150px;
-    /* border: 3px solid orange; */
-    position: relative;
-    
-}
+
 .bg-rec1{
     background-image: url('../images/Rectangle\ 2.png');
     background-repeat: no-repeat;
@@ -446,44 +399,7 @@
     max-width: 600px;
     height: 600px;
 }
-.functional{
-    max-width: 263px;
-    height: 29px;
-    color: #070211;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    padding-left: 600px;
-}
-    
-    
-.holyday-sell{
-    color: #F00;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    padding: 2px 461px 5 462px;
-}
-sell-desc{
-    max-width: 1068px;
-    height: 91px;
-    color: rgba(7, 2, 17, 0.60);
-    color: rgba(7, 2, 17, 0.60);
-    text-align: center;
-    font-family: Inter;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 32px; /* 160% */
-}
-
-/* unfinished upperm section */
-
-/* best gift section/ awesome portfollio */
-
+ 
 /* new section */
 
 .best-section{
@@ -516,7 +432,7 @@ sell-desc{
     text-transform: capitalize;
 }
 
-.portfollio details{
+.portfollio-details{
     width: 896pxpx;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -546,6 +462,7 @@ sell-desc{
     background: rgba(255, 0, 0, 0.05);
     margin: 0 auto;
     margin-top: 120px;
+    margin-bottom: 120px;
     align-items: center;
     text-align: center;
 }
