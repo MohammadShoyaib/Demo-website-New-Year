@@ -135,6 +135,9 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+#section-two-Join:hover{
+    color: red;
+}
 
 /* Third Section */
 
@@ -181,6 +184,10 @@
     text-transform: uppercase;
     margin-top: 48px;
     margin-left: 200px;
+}
+.join-button:hover{
+    background:linear-gradient(orange,tomato);
+    cursor: pointer;
 }
 
 /* Fourth Section */
