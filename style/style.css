@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Inter','Merriweather', serif;
+    
 }
 /* header top */
 .header-top{
@@ -12,8 +13,10 @@
     height: 600px;
     background-repeat: no-repeat;
     background-size: contain;
+    justify-content: center;
     flex-shrink: 0;
-    margin: 50px 140px 0 140px;
+    margin: 50px 140px 0 150px;
+    
 }
 /* header-title */
 .header-title{
@@ -37,9 +40,12 @@
 }
 /* main section one */
 .main-section-one{
-    max-width: 1600px;
-    height: 735px;
+    width: 1300px;
+    height: 950px;
+    margin: 120px 140px 120px 140px;
+    border: 2px solid orange;
     align-items: center;
+    
 }
 .section-one-h2{
     color: #F00;
@@ -67,6 +73,7 @@
 .new-year-photo{
     max-width: 802.9px;
     height: 500px;
+    margin-bottom: 50px;
     padding: 50px 398px 0px 399px;
 }
 /* Main section two */
@@ -129,10 +136,147 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+
+/* Third Section */
 .main-section-third{
-    width: 1320px;
+    max-width: 1320px;
     height: 482px;
     flex-shrink: 0;
     background:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     margin: 120px 140px 120px 140px;
+    border: 3px solid orange;
 }
+.third-div-1{
+    max-width: 549px;
+    max-height: 168px;
+    padding: 100px 386px 214px 385px;
+}
+.place-d-t{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+}
+.time-span{
+    color: #070211;
+}
+.join-button{
+    border-radius: 8px;
+    background: #F00;
+    display: inline-flex;
+    padding: 16px 32px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 48px;
+    margin-left: 200px;
+}
+
+/* main more to be done */
+
+/* Fourth Section */
+.main-section-four{
+    max-width: 1320px;
+    background: #FFF;
+    display: flex;
+    margin: 120px 140px 120px 140px;
+    
+}
+.best-offer{
+    
+}
+.best-offer-title{
+    max-width: 207px;
+    height: 29px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 104px;
+}
+.Coming-soon{
+        max-width: 328px;
+        height: 29px;
+        color: #070211;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-weight: 900;
+        text-transform: capitalize;
+        margin: 22px 0 22px 0;
+}
+.coming-soon-details{
+        max-width: 393px;
+        max-height: 128px;
+        color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px; /* 160% */
+}
+.section-four-image{
+    max-width: 463px;
+    max-height: 463px;
+    border-radius: 100%;
+    border: 15px solid #F00;
+    margin-left: 70px;
+    margin-right: 118px;
+
+}
+#image-section-four{
+    padding: 49px 49px 49px 49px;
+}
+.logo-24{
+    max-width: 126px;
+    height: 58px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.logo-right-details{
+    max-width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+#group-96{
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+    margin-bottom: 54px;
+}
+
+/* holiday section (section-five) */
+
+/* footer */
+.footer-width{
+    max-width: 1600px;
+    height: 609px;
+    background: #070211;
+    margin: 0 auto;
+    background-size: cover;
+    flex-shrink: 0;
+}
+.footer-address{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+}
+
