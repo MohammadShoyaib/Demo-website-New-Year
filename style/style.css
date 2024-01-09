@@ -187,6 +187,7 @@
 }
 .join-button:hover{
     background:linear-gradient(orange,tomato);
+    transition: 1.3s;
     cursor: pointer;
 }
 
@@ -441,7 +442,7 @@
 }
 
 .portfollio-details{
-    width: 896pxpx;
+    width: 850px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
